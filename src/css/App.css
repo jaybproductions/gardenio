@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.crop-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 50px;
+  flex-wrap: wrap;
+}
