@@ -10,3 +10,23 @@
   padding: 50px;
   flex-wrap: wrap;
 }
+
+.hero {
+  height: 100vh;
+  background-color: coral;
+}
+
+.hero h1 {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  height: 50%;
+  color: white;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.hero > input {
+  width: 75%;
+  height: 50px;
+  border-radius: 5px;
+}
